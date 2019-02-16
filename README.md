@@ -4,6 +4,10 @@ This is a mirror of HenJan van der Pol's excellent [Patterns for Mechanical Draw
 
 All credit for this goes to [HenkJan van der Pol](https://inkscape.org/~henkjan_nl/) for this very helpful pattern library.
 
+
+![Preview of patterns](https://raw.githubusercontent.com/zirafa/inkscape-hatch-patterns/master/preview.png)
+
+
 ## How to use
 
 ### Single Pattern Usage
