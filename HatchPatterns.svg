@@ -1,4 +1,9 @@
-<svg width="920" height="225" xmlns="http://www.w3.org/2000/svg">
+<svg width="1024" height="256"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+>
 <defs>
 <pattern id="Hatch1.0x045"
 inkscape:stockid="Hatch 1.0 x 45°"
