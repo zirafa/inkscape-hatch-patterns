@@ -11,7 +11,7 @@ All credit for this goes to [HenkJan van der Pol](https://inkscape.org/~henkjan_
 ## How to use
 
 ### Single Pattern Usage
-- Read HenkJan van der Pol's [instructions (PDF)](Patterns for mechanical drawings in Inkscape.pdf) on how to manually copy patterns via copying and pasting object properties.
+- Read HenkJan van der Pol's [instructions (PDF)](Patterns%20for%20mechanical%20drawings%20in%20Inkscape.pdf) on how to manually copy patterns via copying and pasting object properties.
 
 ### Add to pattern fill dropdown
 
