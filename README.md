@@ -18,3 +18,14 @@ All credit for this goes to [HenkJan van der Pol](https://inkscape.org/~henkjan_
 
 
 After saving the file and relaunching Inkscape, the patterns will always be available from the pattern fill dropdown.
+
+### Add as a paint server
+
+#### Linux
+
+```shell
+cp paint/hatch-patterns.svg ~/.config/inkscape/paint/
+```
+
+Then reload inkscape. The hatches are available from the Object > Paint Servers menu under the name "Hatch Patterns" (as from the <title> in `paint/hatch-patterns.svg`).
+
