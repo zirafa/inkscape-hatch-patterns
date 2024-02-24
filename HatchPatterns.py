@@ -107,7 +107,12 @@ for pitch in [2**(i/4) for i in range(13)]:
 	x+=20
 
 # Bare format of an SVG file, patterns and content need to be filled in
-SVG_GENERAL = """<svg width="920" height="225" xmlns="http://www.w3.org/2000/svg">
+SVG_GENERAL = """<svg width="1024" height="256"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+>
 <defs>
 $Patterns
 </defs>
