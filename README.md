@@ -11,21 +11,40 @@ All credit for this goes to [HenkJan van der Pol](https://inkscape.org/~henkjan_
 ## How to use
 
 ### Single Pattern Usage
-- Read HenkJan van der Pol's instructions (PDF) on how to manually copy patterns via copying and pasting object properties.
+- Read HenkJan van der Pol's [instructions (PDF)](Patterns%20for%20mechanical%20drawings%20in%20Inkscape.pdf) on how to manually copy patterns via copying and pasting object properties.
 
 ### Add to pattern fill dropdown
-- Copy the content of Defs.txt inside the ```<defs> </defs>``` tags of Inkscape's built in patterns.svg file. For MacOSX, this file might be located here: ```/Applications/Inkscape.app/Contents/Resources/share/inkscape/patterns/patterns.svg```. For Windows this file might be located here:```C:\Program Files\Inkscape\share\inkscape\paint\patterns.svg``` or ```C:\Program Files\Inkscape\share\patterns\patterns.svg```. Also for Windows you will probably need to edit the file as an administrator. To do this navigate to your editor of choice (i.e. [Notepad++](https://notepad-plus-plus.org/)), and instead of double clicking, launch it by performing Right click + Open as Administrator and then open the file. The exact location of the file may be different depending on your OS version.
 
+Copy [`HatchPatterns.svg`](HatchPatterns.svg) into your Inkscape paint patterns folder:
 
-After saving the file and relaunching Inkscape, the patterns will always be available from the pattern fill dropdown.
-
-### Add as a paint server
-
-#### Linux
-
+#### MacOS
 ```shell
-cp paint/hatch-patterns.svg ~/.config/inkscape/paint/
+cp HatchPatterns.svg /Applications/Inkscape.app/Contents/Resources/share/inkscape/paint/
 ```
 
-Then reload inkscape. The hatches are available from the Object > Paint Servers menu under the name "Hatch Patterns" (as from the <title> in `paint/hatch-patterns.svg`).
+#### Windows
+```shell
+copy HatchPatterns.svg "C:\Program Files\Inkscape\share\inkscape\paint\"
+```
+
+Relaunching Inkscape. The patterns will always be available from the pattern fill dropdown:
+
+![inkscape fill toolbar preview](preview-inkscape.png)
+
+
+### Add as a paint server (this also adds to the pattern fill dropdown)
+
+This method installs the pattern as a paint server in your Inkscape user config directory rather than the app directory (which could get overwritten). You can find  Inkscape user config directory path by going to Inkscape > Settings > System and look for the User Config path.
+
+#### Linux
+```shell
+cp paint/HatchPatterns.svg ~/.config/inkscape/paint/
+```
+
+#### MacOS
+```shell
+cp paint/HatchPatterns.svg ~/Library/Application Support/org.inkscape.Inkscape/config/inkscape/paint/
+```
+
+Then reload inkscape. The hatches are available from the Object > Paint Servers menu under the name "Hatch Patterns" (as from the <title> in `paint/HatchPatterns.svg`). They should also show up under the Fill/Stroke menu.
 
