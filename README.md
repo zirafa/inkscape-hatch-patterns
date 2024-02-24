@@ -28,9 +28,7 @@ copy HatchPatterns.svg "C:\Program Files\Inkscape\share\inkscape\paint\"
 ```
 
 Relaunching Inkscape. The patterns will always be available from the pattern fill dropdown:
-
-![inkscape fill toolbar preview](preview-inkscape.png)
-
+![inkscape fill toolbar preview](preview-fill-stroke-screenshot.png)
 
 ### Add as a paint server (this also adds to the pattern fill dropdown)
 
@@ -47,4 +45,3 @@ cp paint/HatchPatterns.svg ~/Library/Application Support/org.inkscape.Inkscape/c
 ```
 
 Then reload inkscape. The hatches are available from the Object > Paint Servers menu under the name "Hatch Patterns" (as from the <title> in `paint/HatchPatterns.svg`). They should also show up under the Fill/Stroke menu.
-
