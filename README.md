@@ -29,4 +29,4 @@ copy HatchPatterns.svg "C:\Program Files\Inkscape\share\inkscape\paint\"
 
 Relaunching Inkscape. The patterns will always be available from the pattern fill dropdown:
 
-![inkscape fill toolbar preview](preview-inkscape.png)
+![inkscape fill toolbar preview](preview-fill-stroke-screenshot.png)
