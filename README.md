@@ -7,7 +7,6 @@ All credit for this goes to [HenkJan van der Pol](https://inkscape.org/~henkjan_
 
 ![Preview of patterns](https://raw.githubusercontent.com/zirafa/inkscape-hatch-patterns/master/preview.png)
 
-
 ## How to use
 
 ### Single Pattern Usage
@@ -32,7 +31,7 @@ Relaunching Inkscape. The patterns will always be available from the pattern fil
 
 ### Add as a paint server (this also adds to the pattern fill dropdown)
 
-This method installs the pattern as a paint server in your Inkscape user config directory rather than the app directory (which could get overwritten). You can find  Inkscape user config directory path by going to Inkscape > Settings > System and look for the User Config path.
+This method installs the pattern as a paint server in your Inkscape user config directory rather than the app directory (which could get overwritten). You can find your Inkscape user config directory path by going to Inkscape > Settings > System and looking for the User Config path.
 
 #### Linux
 ```shell
@@ -44,4 +43,4 @@ cp paint/HatchPatterns.svg ~/.config/inkscape/paint/
 cp paint/HatchPatterns.svg ~/Library/Application Support/org.inkscape.Inkscape/config/inkscape/paint/
 ```
 
-Then reload inkscape. The hatches are available from the Object > Paint Servers menu under the name "Hatch Patterns" (as from the <title> in `paint/HatchPatterns.svg`). They should also show up under the Fill/Stroke menu.
+Then reload Inkscape. The hatches are available from the Object > Paint Servers menu under the name "Hatch Patterns" (as from the <title> in `paint/HatchPatterns.svg`). They should also show up under the Fill/Stroke menu.
